@@ -1,0 +1,23 @@
+{
+  "name": "qa-wolf-tests",
+  "version": "1.0.0",
+  "description": "Test project using Playwright",
+  "main": "login.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-playwright-preset": "^3.0.1"
+  },
+  "dependencies": {
+    "expect-playwright": "^0.8.0",
+    "faker": "^5.5.3"
+  }
+}
